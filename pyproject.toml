@@ -7,6 +7,7 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 colorama = "^0.4.4"
+youtube_dl = "^2021.2.22"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^20.8b1", allow-prereleases = true}
@@ -17,4 +18,5 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool. poetry.scripts]
-url_dump = ""
+url_dump = "url_dump.main:start"
+video_download = "video_download.main:start"

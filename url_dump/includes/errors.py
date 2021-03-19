@@ -1,0 +1,1 @@
+URL_FILE_BOTH_PRESENT = "Either URL or the Filename must be present. But not both!"
